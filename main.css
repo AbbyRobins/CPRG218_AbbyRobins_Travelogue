@@ -1,8 +1,62 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER CONTAINER */
+
 header {
     background-color:rgb(79, 255, 226); /*primary brand color*/
+    padding: 1.1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    align-self: center;
 }
 
 h1 {
     font-family: 'quicksand', sans-serif;
-    font-size: 3em;
-} 
+    font-size: 2em;
+}
+
+.title_subtitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.05em;
+}
+
+.title_subtitle h1 {
+    margin-bottom: -0;
+}
+
+.title_subtitle h3 {
+    margin-top: -0;
+}
+
+nav {
+    font-family: 'quicksand', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 10em;
+    display: flex;
+    gap: 3em;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    text-decoration: none;
+
+}
