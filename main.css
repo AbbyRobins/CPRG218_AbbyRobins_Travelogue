@@ -1,7 +1,29 @@
+/* GENERAL */
+
+*{
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     padding: 0;
     margin: 0;
+    background-color:hsl(169, 73%, 93%);
+}
+
+h2 {
+    font-family: 'quicksand', sans-serif;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-family: 'quicksand', sans-serif;
+    font-size: 1.4rem;
+    /*margin: 4rem 2rem 1.5rem 2rem;*/
+}
+
+.description {
+    font-family: 'quicksand', sans-serif;
 }
 
 /* HEADER CONTAINER */
@@ -72,13 +94,48 @@ nav a:hover {
     background-color: #000000;
     padding: 0.8rem;
     border-radius: 0.8rem;
+    scale: 110%;
 }
 
 /* TRAVELOGUE HEADER */
 
 #travelogue_header {
-    margin-left: 2rem;
+    margin: 2rem 2rem 1.5rem 2rem;
 }
 
 /* WILDER INSTITUTE */
 
+#wilder_institute {
+    background-color: #132e26;
+    border: 4px solid #b7c534;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+#wi_title_desc {
+    grid-column: span 2;
+}
+
+#owl {
+    grid-row: span 2;
+    justify-self: end;
+}
+
+#wilder_institute img {
+    max-width: 90%;
+}
+
+#wilder_institute h3 {
+    margin-top: 0;
+    color: #b7c534;
+}
+
+#wilder_institute p {
+    margin-top: 0;
+    color: #e5ead2;
+}
+
+/* BOWNESS PARK */
