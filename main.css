@@ -7,11 +7,12 @@ body {
 /* HEADER CONTAINER */
 
 header {
-    background-color:rgb(79, 255, 226); /*primary brand color*/
-    padding: 1.1rem;
+    background-color:#4fffe2; /*primary brand color*/
+    padding: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0;
 }
 
 .logo {
@@ -37,14 +38,13 @@ h1 {
 
 .title_subtitle p {
     margin-top: -0;
-        text-wrap: none;
-
+    font-family: 'quicksand', sans-serif;
+    font-size: 1.1rem;
 }
 
 nav {
     font-family: 'quicksand', sans-serif;
     font-size: 1.2rem;
-    font-weight: bold;
     margin-left: 10rem;
     display: flex;
     gap: 3rem;
@@ -52,16 +52,33 @@ nav {
 
 nav a:link {
     text-decoration: none;
+    color: #000000;
+    background-color: #4fffe2;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
 }
 
 nav a:visited {
     text-decoration: none;
-    
+    color: #000000;
+    background-color: #4fffe2;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
 }
 
 nav a:hover {
     text-decoration: none;
-
+    color: #4fffe2;
+    background-color: #000000;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
 }
 
-/* use grid for the images */
+/* TRAVELOGUE HEADER */
+
+#travelogue_header {
+    margin-left: 2rem;
+}
+
+/* WILDER INSTITUTE */
+
