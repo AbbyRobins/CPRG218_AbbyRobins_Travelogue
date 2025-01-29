@@ -218,3 +218,26 @@ nav a:hover {
 #burnstick_lake img {
     max-width: 100%;
 }
+
+/* FOOTER */
+
+footer #footer_logo_nav {
+    background-color:#4fffe2;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+footer #footer_logo_nav nav {
+    font-size: 1rem;
+    gap: 0.8rem;
+}
+
+footer #copyright {
+    background-color:#4fffe2;
+    margin: 0;
+    padding: 0.8rem;
+    text-align: center;
+}
