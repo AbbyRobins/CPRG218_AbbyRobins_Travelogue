@@ -134,8 +134,58 @@ nav a:hover {
 }
 
 #wilder_institute p {
-    margin-top: 0;
     color: #e5ead2;
+    line-height: 1.6;
 }
 
 /* BOWNESS PARK */
+
+#bowness_park {
+    background-color: #016b38;
+    border: 4px solid #00ff84;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    gap: 2rem;
+}
+
+#bp_title_desc {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+#bp_title_desc h3 {
+    margin-top: 0;
+    color: #00ff84;
+}
+
+#bp_title_desc p {
+    color: #c2f8ba;
+    line-height: 1.6;
+}
+
+#bp_title_desc li {
+    font-family: 'quicksand', sans-serif;
+    color: #c2f8ba;
+}
+
+#bowness_park img {
+    max-width: 100%;
+}
+
+#pond {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row: span 2;
+    align-self: center;
+}
+
+#curling {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row: span 2;
+    align-self: center;
+}
