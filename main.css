@@ -265,7 +265,7 @@ footer nav {
     padding: 0.8rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     
     body {
         overflow-x: hidden;
@@ -326,6 +326,56 @@ footer nav {
         align-self: center;
     }
 
+    footer #footer_logo_nav {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+    }
+
+    footer nav {
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .title_subtitle h1 {
+        margin-top: 0.5rem;
+    }
+    
+    .title_subtitle p {
+        margin-top: -1rem;
+    }
+}
+
+@media (max-width: 1307px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header img{
+        max-width: 50%;
+    }
+
+    header .title_subtitle {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+
+    header .title_subtitle p {
+        margin-top: 0.5rem;
+    }
+
+    header nav {
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+    
     footer #footer_logo_nav {
         display: grid;
         grid-template-columns: 1fr 2fr;
