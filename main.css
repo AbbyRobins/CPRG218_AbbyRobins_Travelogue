@@ -189,3 +189,32 @@ nav a:hover {
     grid-row: span 2;
     align-self: center;
 }
+
+/* BURNSTICK LAKE */
+
+#burnstick_lake {
+    background-color: #112136;
+    border: 4px solid #ff7300;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    gap: 2rem;
+}
+
+#bl_title_desc {
+    grid-column: span 3;
+}
+
+#burnstick_lake h3 {
+    color: #e8583f;
+}
+
+#burnstick_lake p {
+    color: #ffd1b9;
+}
+
+#burnstick_lake img {
+    max-width: 100%;
+}
