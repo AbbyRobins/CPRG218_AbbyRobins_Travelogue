@@ -22,6 +22,10 @@ h3 {
     /*margin: 4rem 2rem 1.5rem 2rem;*/
 }
 
+p {
+    line-height: 1.6;
+}
+
 .description {
     font-family: 'quicksand', sans-serif;
 }
@@ -145,7 +149,6 @@ nav a:hover {
 
 #wilder_institute p {
     color: #e5ead2;
-    line-height: 1.6;
 }
 
 /* BOWNESS PARK */
@@ -174,7 +177,6 @@ nav a:hover {
 
 #bp_title_desc p {
     color: #c2f8ba;
-    line-height: 1.6;
 }
 
 #bp_title_desc li {
