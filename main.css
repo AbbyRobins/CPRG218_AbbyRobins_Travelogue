@@ -126,6 +126,7 @@ nav a:hover {
     margin: 1rem;
     padding: 0.8rem;
     border-radius: 0.8rem;
+    margin-bottom: 5rem;
 }
 
 #wi_title_desc {
@@ -163,6 +164,7 @@ nav a:hover {
     padding: 0.8rem;
     border-radius: 0.8rem;
     gap: 2rem;
+    margin-bottom: 5rem;
 }
 
 #bp_title_desc {
@@ -213,6 +215,7 @@ nav a:hover {
     padding: 0.8rem;
     border-radius: 0.8rem;
     gap: 2rem;
+    margin-bottom: 5rem;
 }
 
 #bl_title_desc {
