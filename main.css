@@ -44,6 +44,7 @@ header img {
 }
 
 header .title_subtitle {
+    font-family: 'quicksand', sans-serif;
     max-width: 100%;
     grid-column-start: 2;
     grid-row-start: 2;
@@ -53,10 +54,12 @@ header .title_subtitle {
 }
 
 header h1 {
+    font-family: 'quicksand', sans-serif;
     margin-bottom: 0;
 }
 
 header p {
+    font-family: 'quicksand', sans-serif;
     margin-top: 0.5rem;
     text-align: center;
 }
@@ -67,6 +70,7 @@ header nav {
     align-self: center;
     padding: 2rem;
     gap: 5rem;
+    text-align: center;
 }
 
 nav {
@@ -105,6 +109,7 @@ nav a:hover {
 
 #travelogue_header {
     margin: 2rem 2rem 1.5rem 2rem;
+    font-family: 'quicksand', sans-serif;
 }
 
 /* WILDER INSTITUTE */
@@ -126,6 +131,7 @@ nav a:hover {
 #owl {
     grid-row: span 2;
     justify-self: end;
+    align-self: center;
 }
 
 #wilder_institute img {
@@ -225,31 +231,115 @@ nav a:hover {
 
 /* FOOTER */
 
+footer {
+    font-family: 'quicksand', sans-serif;
+    background-color: #4fffe2;
+    margin-bottom: -50rem;
+}
+
 footer #footer_logo_nav {
-    background-color:#4fffe2;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0;
 }
 
-footer #footer_logo_nav nav {
-    font-size: 1rem;
-    gap: 0.8rem;
+footer img {
+    max-width: 25%;
 }
 
-footer #copyright {
-    background-color:#4fffe2;
-    margin: 0;
-    padding: 0.8rem;
+footer #img_title_sub {
     text-align: center;
 }
 
+footer nav {
+    align-self: center;
+}
+
+#copyright {
+    text-align: center;
+    padding: 0.8rem;
+}
+
 @media (max-width: 768px) {
-    header {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    header img{
+        max-width: 50%;
+    }
+
+    header .title_subtitle {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+
+    header .title_subtitle p {
+        margin-top: 0.5rem;
+    }
+
+    header nav {
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    #wilder_institute {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        gap: 1rem;
+    }
+    
+    #wilder_institute img {
+        justify-self: center;
+        align-self: center;
+    }
+
+    #bowness_park {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    #bowness_park img {
+        justify-self: center;
+        align-self: center;
+    }
+
+    #burnstick_lake {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    #burnstick_lake img {
+        justify-self: center;
+        align-self: center;
+    }
+
+    footer #footer_logo_nav {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+    }
+
+    footer nav {
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .title_subtitle h1 {
+        margin-top: 0.5rem;
+    }
+    
+    .title_subtitle p {
+        margin-top: -1rem;
     }
 }
